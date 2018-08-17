@@ -1,0 +1,52 @@
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+ body {
+    background-image: url("background.png");
+    background-repeat: repeat-x;
+    background-size: 100%; 
+}
+
+.classh1 {
+    font-size: 60px;
+    color: #2A19CA;
+    text-shadow: 1px 1px #07013F;
+
+}
+
+.classh2 {
+    text-shadow: 1px 1px grey;
+    color: #121022;
+
+}
+
+.buttonGithub {
+    height:20px; 
+    width:100px; 
+    margin-right: -10px; 
+    margin-left: -132px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+
+.buttonTwitter {
+    height:20px; 
+    width:100px; 
+    margin-right: -100px;
+    margin-left: 75px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
